@@ -1,0 +1,87 @@
+[
+    {
+        "id": 1,
+        "nombre": "Manzana Roja",
+        "precio": 5000,
+        "precioUnidad": 1000,
+        "precioLibra": 10000,
+        "precioKilo": 20000,
+        "imagen": "img/tipos-de-manzana-royal-gala_0.avif",
+        "descripcion": "Una deliciosa manzana roja, fresca y jugosa.",
+        "categoria": "frutas",
+        "subcategoria": "importadas",
+        "destacado": true
+    },
+    {
+        "id": 2,
+        "nombre": "Banano",
+        "precio": 4000,
+        "precioUnidad": 1000,
+        "precioLibra": 10000,
+        "precioKilo": 20000,
+        "imagen": "img/banano.jpg",
+        "descripcion": "Banano maduro, ideal para batidos y postres.",
+        "categoria": "frutas",
+        "subcategoria": "nacionales",
+        "destacado": true
+    },
+    {
+        "id": 3,
+        "nombre": "Pera",
+        "precio": 4500,
+        "precioUnidad": 1000,
+        "precioLibra": 10000,
+        "precioKilo": 20000,
+        "imagen": "img/pera.jpg",
+        "descripcion": "Pera verde con un toque dulce y refrescante.",
+        "categoria": "frutas",
+        "subcategoria": "importadas",
+        "destacado": false
+    },
+    {
+        "id": 4,
+        "nombre": "Lechuga",
+        "precio": 3000,
+        "precioUnidad": 1000,
+        "precioLibra": 10000,
+        "precioKilo": 20000,
+        "imagen": "img/lechuga.jpg",
+        "descripcion": "Lechuga fresca, ideal para ensaladas.",
+        "categoria": "vegetales",
+        "subcategoria": "nacionales",
+        "destacado": false
+    },
+    {
+        "id": 5,
+        "nombre": "Brócoli",
+        "precio": 3500,
+        "precioUnidad": 1000,
+        "precioLibra": 10000,
+        "precioKilo": 20000,
+        "precio_unidad": 1000,
+        "precio_libra": 10000,
+        "precio_kilo": 20000,
+        "imagen": "img/brocoli.jpg",
+        "descripcion": "Brócoli rico en vitaminas y minerales.",
+        "categoria": "vegetales",
+        "subcategoria": "importadas",
+        "destacado": true
+    },
+
+    {
+        "id": 6,
+        "nombre": "Uchuva",
+        "precio": 3500,
+        "precioUnidad": 1000,
+        "precioLibra": 10000,
+        "precioKilo": 20000,
+        "precio_unidad": 1000,
+        "precio_libra": 10000,
+        "precio_kilo": 20000,
+        "imagen": "img/brocoli.jpg",
+        "descripcion": "Brócoli rico en vitaminas y minerales.",
+        "categoria": "frutas",
+        "subcategoria": "importadas",
+        "destacado": true
+    }
+]
