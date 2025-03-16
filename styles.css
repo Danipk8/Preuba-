@@ -201,6 +201,7 @@ nav ul li{
 
 /* Lista de Productos */
 #carrito-items {
+    display: block;
     flex-grow: 1;
     padding: 15px;
     list-style: none;
