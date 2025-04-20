@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <script defer src="script.js"></script>
     <link rel="stylesheet" href="styles.css">
+
+    
 </head>
 
 
@@ -22,11 +23,65 @@
     
 
     <main>
-        <h1>Todos los Productos</h1>
-        <div id="productos-lista"></div> <!-- Aquí se cargarán los productos dinámicamente -->
-    </main>
+
+        <div class="Seccion-Productos">   
+            
+            
+            <div class="imagen-productos">
+                <img src="img/banner-categorias1.jpg" alt="Frutas y verduras" title="Frutas y verduras" >
+            </div>
+
+            <div class="texto-productos"> 
+                <h1>Productos</h1>
+                <p>Aqui podras encontrar todos los productos:</p>
+                                         
+            </div>
+
+
+
+            <div class="Productos-por-categoria">
+
+                <div class="texto-productos_por_categoria"> 
+                    <h1>Productos por categoría</h1>
+                    
+                </div>
+                
+                <div class="categorias-container">
+                    
+                    <a href="Categoria_Frutas.html" class="categoria">
+                        <img class="img-frutas" src="img/uchuva.png" alt="Frutas">
+                        <span>Frutas</span>
+                    </a>
+                    <a href="Categoria_Vegetales.html" class="categoria">
+                        <img class="img-vegetales" src="img/zanahoria.png" alt="Verduras">
+                        <span>Vegetales</span>
+                    </a>
+                </div>
+                
+
+
+
+
+            </div>
+
+
+            <div class="texto-productos-variados"> 
+                <h1>Productos variados</h1>
+                <p>Productos variados de la tienda:</p>
+            </div>
+
+
+
+
+            <div class="Productos" id="productos-lista"></div> <!-- Aquí se cargarán los productos dinámicamente -->
+
+            
+            
+
+        
+        </div>
     
-    <script defer src="js/productos.js"></script>
+    </main>
     
         
             
@@ -43,7 +98,8 @@
  
     </footer>
     
-
+    <script defer src="script.js"></script>
+        <script defer src="js/productos.js"></script>
 
 
 </body>
